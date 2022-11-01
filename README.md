@@ -5,9 +5,9 @@
 ```bash
 ├── server.js
 │   └── parse 초기화 파일
-├── config.js
+├── .env
 │   └── 설정 파일
-├── errors
+├── res_code
 │   └── HTTP 응답 코드
 ├── files
 │   └── S3로 업로드 되는 파일
