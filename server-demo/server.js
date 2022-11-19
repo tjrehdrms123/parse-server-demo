@@ -28,7 +28,7 @@ app.use(
   cors({
     origin: true,
     credentials: true,
-    maxAge: 3600
+    maxAge: 3600,
   })
 );
 app.use(cookieParser());
@@ -69,7 +69,7 @@ app.use("/dashboard", dashboard);
 
 app.use("/", routes);
 app.get("/", (req, res) => {
-  return res.send("Welcome to MP Server");
+  return res.send("Welcome to DEMO Server");
 });
 
 app.use((req, res) => {
